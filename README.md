@@ -1,27 +1,20 @@
 # Buildcraft AI
 
-Standards et workflows réutilisables pour développer des applications FastAPI et React avec des assistants de code.
+Reusable standards, coding agents and workflows for FastAPI and React projects. Maintained in [rodriguemakeit-oss/buildcraft-ai](https://github.com/rodriguemakeit-oss/buildcraft-ai).
 
-Version de portfolio maintenue sur [rodriguemakeit-oss](https://github.com/rodriguemakeit-oss).
+## What is included
 
-## Ce que le projet explore
+- `standards/`: shared conventions for backend, frontend, tests, security and documentation.
+- `agents/`, `skills/`, `commands/`, `hooks/`: coding-assistant workflows.
+- `AGENTS.md` and `.github/instructions/`: adapters for tools that read repository instructions.
+- `docs/`: setup guides, usage examples and architecture decisions.
 
-Standards et workflows réutilisables pour développer des applications FastAPI et React avec des assistants de code. L’accent est mis sur la séparation des composants, la configuration explicite et la réutilisation des traitements.
+## Getting started
 
-## Structure
+Clone this repository, then follow [the Claude Code guide](docs/claude-code.md) or [the Copilot CLI guide](docs/copilot-cli.md). Use the standards as a starting point and adapt authentication, UI components and project tracking to your own project.
 
-`standards/ · agents/ · commands/ · docs/`
+The portfolio configuration uses example identities and public repository links. It does not include access to any hosted service. [GUIDE.md](GUIDE.md) contains the full reference.
 
-## Prise en main
+## Validation and credits
 
-Consultez [GUIDE.md](GUIDE.md) pour les commandes et la configuration détaillées.
-
-Les valeurs de déploiement sont des exemples. Les identifiants nuls et les domaines `example.invalid` doivent être remplacés dans votre propre environnement. Aucun déploiement cloud n’est lancé automatiquement.
-
-## État du projet
-
-Cette adaptation nécessite vos propres services et jeux de données. Les contrôles locaux sont décrits dans [VALIDATION.md](VALIDATION.md) ; ils ne constituent pas une validation des intégrations cloud.
-
-## Contributions et licences
-
-Les noms de packages, crédits d’auteurs et avis tiers conservés dans les sources s’appliquent à leurs composants respectifs. Aucune licence globale supplémentaire n’est attribuée à ce dépôt.
+See [VALIDATION.md](VALIDATION.md) for checks and limitations. Existing author credits remain in the package metadata. No additional repository-wide license is assigned.

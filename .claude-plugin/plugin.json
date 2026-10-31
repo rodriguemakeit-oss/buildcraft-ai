@@ -1,0 +1,8 @@
+{
+  "name": "buildcraft-ai",
+  "version": "0.24.0",
+  "description": "Reusable dev/PM agents, skills and workflows (Claude-native)",
+  "author": {
+    "name": "Massinissa"
+  }
+}

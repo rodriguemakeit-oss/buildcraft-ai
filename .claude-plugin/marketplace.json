@@ -1,0 +1,11 @@
+{
+  "name": "renewable-flex-internal",
+  "owner": { "name": "Renewable and Flex delivery tribe" },
+  "plugins": [
+    {
+      "name": "buildcraft-ai",
+      "source": "./",
+      "description": "Reusable dev/PM AI foundation for portfolio/ projects"
+    }
+  ]
+}
