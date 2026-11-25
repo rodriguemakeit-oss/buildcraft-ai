@@ -1,20 +1,20 @@
 # Buildcraft AI
 
-Reusable standards, coding agents and workflows for FastAPI and React projects. Maintained in [rodriguemakeit-oss/buildcraft-ai](https://github.com/rodriguemakeit-oss/buildcraft-ai).
+Reusable engineering standards and coding-assistant workflows for FastAPI and React projects.
 
 ## What is included
 
-- `standards/`: shared conventions for backend, frontend, tests, security and documentation.
-- `agents/`, `skills/`, `commands/`, `hooks/`: coding-assistant workflows.
-- `AGENTS.md` and `.github/instructions/`: adapters for tools that read repository instructions.
-- `docs/`: setup guides, usage examples and architecture decisions.
+- `standards/` — shared conventions for APIs, security, testing, documentation, and delivery
+- `agents/`, `skills/`, `commands/`, `hooks/` — focused development workflows
+- `AGENTS.md` and `.github/instructions/` — repository guidance and tool adapters
+- `docs/` — setup guides, command examples, and architecture decisions
 
 ## Getting started
 
-Clone this repository, then follow [the Claude Code guide](docs/claude-code.md) or [the Copilot CLI guide](docs/copilot-cli.md). Use the standards as a starting point and adapt authentication, UI components and project tracking to your own project.
+Choose the [Claude Code guide](docs/claude-code.md) or the [GitHub Copilot CLI guide](docs/copilot-cli.md). Start with the standards, then tailor authentication, UI components, and project tracking to your application.
 
-The portfolio configuration uses example identities and public repository links. It does not include access to any hosted service. [GUIDE.md](GUIDE.md) contains the full reference.
+## Design
 
-## Validation and credits
+The standards directory is the canonical source; integrations point to it instead of maintaining separate copies of the same rules. The repository includes no hosted service or project credentials.
 
-See [VALIDATION.md](VALIDATION.md) for checks and limitations. Existing author credits remain in the package metadata. No additional repository-wide license is assigned.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution and versioning practices, and [VALIDATION.md](VALIDATION.md) for validation details.
